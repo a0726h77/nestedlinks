@@ -1,0 +1,35 @@
+{
+    "feedgroups": {
+        "titleKey":"NESTEDLINKS_ADMIN_OPTIONS_FEEDGROUPS_TITLE",
+        "descriptionKey":"NESTEDLINKS_ADMIN_OPTIONS_FEEDGROUPS_DESCRIPTION",
+        "config":"feedgroups",
+        "sectiontype":"section",
+        "sectiontitlefield":"title",
+        "fieldgroups":{
+            "advanced":{"labelKey":"ADMIN_ADVANCED_OPTIONS", "collapsed": true, "descriptionKey":"NESTEDLINKS_ADMIN_OPTIONS_FEEDGROUPS_ADVANCED_DESCRIPTION"}
+        },
+        "fields":{
+            "section":{"labelKey":"NESTEDLINKS_ADMIN_OPTIONS_FEEDGROUPS_SECTION_TITLE", "descriptionKey":"NESTEDLINKS_ADMIN_OPTIONS_FEEDGROUPS_SECTION_DESCRIPTION", "type":"label"},
+            "title":{"labelKey":"NESTEDLINKS_ADMIN_OPTIONS_FEEDGROUPS_TITLE_TITLE", "descriptionKey":"NESTEDLINKS_ADMIN_OPTIONS_FEEDGROUPS_TITLE_DESCRIPTION", "type":"text"}
+        },
+        "sectionindex":"string",
+        "sectionsmethod":"getFeedGroups",
+        "sectionaddnew":true,
+        "sectiondelete":true,
+        "sectionreorder":true
+    },
+    "feed": {
+        "titleKey":"NESTEDLINKS_ADMIN_OPTIONS_FEED_TITLE",
+        "descriptionKey":"NESTEDLINKS_ADMIN_OPTIONS_FEED_DESCRIPTION",
+        "config":"feeds-",
+        "sectiontype":"section",
+        "fields":{
+            "TITLE":{"labelKey":"NESTEDLINKS_ADMIN_OPTIONS_FEED_TITLE_TITLE","descriptionKey":"NESTEDLINKS_ADMIN_OPTIONS_FEED_TITLE_DESCRIPTION","type":"text"},
+            "BASE_URL":{"labelKey":"NESTEDLINKS_ADMIN_OPTIONS_FEED_BASEURL_TITLE","descriptionKey":"NESTEDLINKS_ADMIN_OPTIONS_FEED_BASEURL_DESCRIPTION","type":"text"}
+        },
+        "sectionindex":"numeric",
+        "sectionaddnew":true,
+        "sectiondelete":true,
+        "sectionreorder":true
+    }
+}
